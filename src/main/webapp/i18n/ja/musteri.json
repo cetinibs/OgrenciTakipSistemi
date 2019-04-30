@@ -1,0 +1,26 @@
+{
+  "ogrenciTakipSistemiApp": {
+    "musteri": {
+      "home": {
+        "title": "Musteris",
+        "createLabel": "Musteri を追加",
+        "createOrEditLabel": "Musteriを追加または編集",
+        "search": "Search for Musteri"
+      },
+      "created": "A new Musteri is created with identifier {{ param }}",
+      "updated": "A Musteri is updated with identifier {{ param }}",
+      "deleted": "A Musteri is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Musteri {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Musteri"
+      },
+      "ad": "Ad",
+      "soyad": "Soyad",
+      "adres": "Adres",
+      "odeme": "Odeme",
+      "veli": "Veli"
+    }
+  }
+}

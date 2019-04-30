@@ -1,0 +1,26 @@
+{
+  "ogrenciTakipSistemiApp": {
+    "odeme": {
+      "home": {
+        "title": "Odemes",
+        "createLabel": "Create a new Odeme",
+        "createOrEditLabel": "Create or edit a Odeme",
+        "search": "Search for Odeme"
+      },
+      "created": "A new Odeme is created with identifier {{ param }}",
+      "updated": "A Odeme is updated with identifier {{ param }}",
+      "deleted": "A Odeme is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Odeme {{ id }}?"
+      },
+      "detail": {
+        "title": "Odeme"
+      },
+      "tarih": "Tarih",
+      "odemeAdi": "Odeme Adi",
+      "odemeDetayi": "Odeme Detayi",
+      "odeme": "Odeme",
+      "musteri": "Musteri"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Odeme",
+    "fields": [
+        {
+            "fieldName": "tarih",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "odemeAdi",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "odemeDetayi",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "odeme",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "musteri",
+            "otherEntityName": "musteri",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190430090702",
+    "javadoc": "Task entity.\n@author The JHipster team.",
+    "entityTableName": "odeme",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

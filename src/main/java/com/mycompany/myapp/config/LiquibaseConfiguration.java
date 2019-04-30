@@ -1,7 +1,8 @@
 package com.mycompany.myapp.config;
 
-import javax.sql.DataSource;
-
+import io.github.jhipster.config.JHipsterConstants;
+import io.github.jhipster.config.liquibase.AsyncSpringLiquibase;
+import liquibase.integration.spring.SpringLiquibase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -12,9 +13,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 import org.springframework.core.task.TaskExecutor;
 
-import io.github.jhipster.config.JHipsterConstants;
-import io.github.jhipster.config.liquibase.AsyncSpringLiquibase;
-import liquibase.integration.spring.SpringLiquibase;
+import javax.sql.DataSource;
+import java.util.Locale;
 
 @Configuration
 public class LiquibaseConfiguration {
@@ -28,6 +28,7 @@ public class LiquibaseConfiguration {
     public LiquibaseConfiguration(Environment env, CacheManager cacheManager) {
         this.env = env;
         this.cacheManager = cacheManager;
+        Locale.setDefault(Locale.US);
     }
 
     @Bean

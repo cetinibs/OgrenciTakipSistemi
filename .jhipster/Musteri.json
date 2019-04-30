@@ -1,0 +1,45 @@
+{
+    "name": "Musteri",
+    "fields": [
+        {
+            "fieldName": "ad",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "soyad",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "adres",
+            "otherEntityRelationshipName": "musteri",
+            "relationshipName": "adres"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "odeme",
+            "otherEntityRelationshipName": "musteri",
+            "relationshipName": "odeme"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "veli",
+            "otherEntityRelationshipName": "musteri",
+            "relationshipName": "veli",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20190430090659",
+    "javadoc": "not an ignored comment",
+    "entityTableName": "musteri",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

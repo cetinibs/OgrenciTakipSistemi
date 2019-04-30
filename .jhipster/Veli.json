@@ -1,0 +1,52 @@
+{
+    "name": "Veli",
+    "fields": [
+        {
+            "fieldName": "ad",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "soyad",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "adres",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "meslegi",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "telefonCep",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "telefonSabit",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "musteri",
+            "otherEntityRelationshipName": "veli",
+            "relationshipName": "musteri",
+            "otherEntityField": "id",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20190430090701",
+    "entityTableName": "veli",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

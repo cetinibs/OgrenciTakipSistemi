@@ -1,0 +1,27 @@
+{
+  "ogrenciTakipSistemiApp": {
+    "adres": {
+      "home": {
+        "title": "Adres",
+        "createLabel": "Create a new Adres",
+        "createOrEditLabel": "Create or edit a Adres",
+        "search": "Search for Adres"
+      },
+      "created": "A new Adres is created with identifier {{ param }}",
+      "updated": "A Adres is updated with identifier {{ param }}",
+      "deleted": "A Adres is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Adres {{ id }}?"
+      },
+      "detail": {
+        "title": "Adres"
+      },
+      "evAdres": "Ev Adres",
+      "isAdres": "Is Adres",
+      "email": "Email",
+      "telefonCep": "Telefon Cep",
+      "telefonSabit": "Telefon Sabit",
+      "musteri": "Musteri"
+    }
+  }
+}

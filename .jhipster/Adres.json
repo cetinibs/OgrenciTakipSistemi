@@ -1,0 +1,42 @@
+{
+    "name": "Adres",
+    "fields": [
+        {
+            "fieldName": "evAdres",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isAdres",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "telefonCep",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "telefonSabit",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "musteri",
+            "otherEntityName": "musteri",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190430090700",
+    "entityTableName": "adres",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

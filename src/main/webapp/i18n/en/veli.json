@@ -1,0 +1,29 @@
+{
+  "ogrenciTakipSistemiApp": {
+    "veli": {
+      "home": {
+        "title": "Velis",
+        "createLabel": "Create a new Veli",
+        "createOrEditLabel": "Create or edit a Veli",
+        "search": "Search for Veli"
+      },
+      "created": "A new Veli is created with identifier {{ param }}",
+      "updated": "A Veli is updated with identifier {{ param }}",
+      "deleted": "A Veli is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Veli {{ id }}?"
+      },
+      "detail": {
+        "title": "Veli"
+      },
+      "ad": "Ad",
+      "soyad": "Soyad",
+      "adres": "Adres",
+      "meslegi": "Meslegi",
+      "email": "Email",
+      "telefonCep": "Telefon Cep",
+      "telefonSabit": "Telefon Sabit",
+      "musteri": "Musteri"
+    }
+  }
+}
